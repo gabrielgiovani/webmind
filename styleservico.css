@@ -1,0 +1,168 @@
+paleta de cores{
+    color: #0f199a ;
+    color: #010267 ;
+    color: #6282dc;
+    color: #1d31db ;
+    color: #050028 ;
+}
+
+
+
+body{
+background-color:#6282dc;
+
+}
+header{
+    background-color:#0f199a ;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 100px;
+    margin: 0 1.5%;
+    border-color:#050028; ;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:active{
+    border-color: #6282dc;
+}
+
+.produtos li:hover a{
+    font-size: 25px;
+    
+}
+
+
+.produtos h2{
+    text-transform: uppercase;
+    color: #050028;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.produtos a{
+    text-transform: uppercase;
+    color: #050028;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.produto_desc{
+    font-size: 18px;
+    color: #050028;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.contato{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 100px 0x;
+
+}
+
+.contato li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 100px;
+    margin: 0 1.5%;
+ 
+    
+}
+
+.contato li:hover{
+    border-color: #c78c19;
+}
+
+.contato li:active{
+    border-color: #6282dc;
+}
+
+.contato li:hover a{
+    font-size: 25px;
+    
+}
+
+
+.contato h2{
+    text-transform: uppercase;
+    color: #050028;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.contato a{
+    text-transform: uppercase;
+    color: #050028;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer{
+    padding: 20PX;
+    text-align: center;
+    background-repeat: no-repeat;
+    background:url("footer.png") ;
+
+}
+
+
+
+

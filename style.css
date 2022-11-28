@@ -1,0 +1,85 @@
+paleta de cores{
+    color: #0f199a ;
+    color: #010267 ;
+    color: #6282dc;
+    color: #1d31db ;
+    color: #050028 ;
+}
+
+
+
+body{
+    background-color:#6282dc;
+
+}
+header{
+    background-color:#0f199a ;
+    padding: 20px 0;
+    width: 100vw;
+}
+
+.caixa{
+    position: relative;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.mainhome{
+    height: 600px;   
+    position: relative;
+
+
+
+}
+
+.homeh1{
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 1!important;
+    font-weight:bold;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+}
+
+
+
+
+
+footer{
+    padding: 20PX;
+    text-align: center;
+
+    background:url("footer.png") ;
+ 
+}
+
+
+
+

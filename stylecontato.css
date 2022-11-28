@@ -1,0 +1,132 @@
+paleta de cores{
+    color: #0f199a ;
+    color: #010267 ;
+    color: #6282dc;
+    color: #1d31db ;
+    color: #050028 ;
+}
+
+
+
+body{
+    
+background-color:#6282dc;
+
+}
+header{
+    background-color:#0f199a ;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+
+.main{
+    text-align: center;
+    
+}
+
+
+
+.contato{
+
+    width: 1250px;
+    margin-top:100px;
+    margin-bottom: 220px;
+    padding: 0x 0x;
+    display: inline-block;
+    
+   
+}
+
+.contato ul{
+    margin-left: 225px;
+}
+
+.contato li{
+    
+    vertical-align: top;
+    margin: 0 1.5%;
+    width: 800px;
+    
+    
+}
+
+
+.contato h2{
+    
+    text-transform: uppercase;
+    color: #050028;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.contato a{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #050028;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.botao{
+   
+    border-color:#050028; ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.img_contato{
+padding: 50px;
+ height:300px ;
+ width:728px ;
+}
+
+footer{
+    padding: 20PX;
+    text-align: center;
+    background-repeat: no-repeat;
+    background:url("footer.png") ;
+    bottom: 0;
+}
+
+
+
+
+
+
